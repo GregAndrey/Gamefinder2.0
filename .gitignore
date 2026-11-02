@@ -1,0 +1,24 @@
+# Ambiente e segredos (API Key do AI Studio!)
+.env
+.env.*
+*.key.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# ADK
+.adk/
+
+# Dados gerados pelo agente (wishlist, recomendações e preferências)
+dados/
+wishlists/
+planos/
+
+# Sistema e editores
+.DS_Store
+.vscode/
+.idea/

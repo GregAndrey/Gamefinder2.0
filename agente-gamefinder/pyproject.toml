@@ -1,0 +1,13 @@
+[project]
+name = "agente-gamefinder"
+version = "0.1.0"
+description = "Agente GameFinder - Hub inteligente de recomendação de jogos para Steam, PlayStation e Xbox"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "google-adk>=1.29.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
